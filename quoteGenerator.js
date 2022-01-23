@@ -25,7 +25,7 @@ const arr = ["<q>Merciless criticism and independent thinking are the two necess
 // The parameter set to 'true' reloads a fresh copy from the server. Leaving it out will serve the page from cache.
 
 document.querySelector("#refresh").addEventListener("click", function() { 
-    	      window.location.reload(true).href="#";
+    	      window.location.reload(true);
  });
 
 
