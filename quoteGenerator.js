@@ -29,5 +29,5 @@ document.querySelector("#refresh").addEventListener("click", function() {
  });
 
 
-const x = Math.floor((Math.random() *4) + 1);
+const x = Math.floor((Math.random() * 12) + 1);
 document.querySelector(".quote").innerHTML = arr[x];
