@@ -5,22 +5,22 @@
   }
   
   body {
-    min-height: 34rem;
+    width: 100%;
+    min-height: 90vh;
     background: black;
     display: flex;
     justify-content: center;
-    align-items: center;  
+    align-items: center; 
   }
   
   .board { 
     position: relative;
-    width: 85%;
-    background: gray;
+    width: 90vw;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border-radius: 2rem;
+    border-radius: 0.5rem;
     
   }
   
@@ -31,59 +31,58 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 2rem 2rem 0 0; 
-    padding: 1.4rem;
+    border-radius: 0.5rem 0.5rem 0 0; 
+    padding: 1.5rem;
   }
   
   .border {
     position: relative;
-    width: 98%;
-    min-height: 40vh;
+    width: 99%;
+    min-height: 50vw;
     background: white;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 2px solid rgb(192,192,192);
-    border-radius: 2rem;
-    padding: 2rem;   
+    border-radius: 0.5rem;
+    padding: 0rem 0.4rem 0.6rem 0.4rem;   
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
+
   .heading {
-    position: absolute;
-    top: 6%;
-    font-size: 2.2vw; 
+    position: relative;
+    font-size: 3.2vw; 
     font-family: sans-serif;
     color: rgb(105,105,105);
+    margin-top: 0;
   }
   
   .quote {
     position: relative;
-    font-size: 1.7vw;
+    font-size: 2.8vw;
     font-family: sans-serif;   
     line-height: 125%;
+    margin-top: 4%;
   }
   
   #refresh {
     position: relative;
     width: 100%;
-    min-height: 3rem;
     background: green;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
-    border-radius: 0 0 2rem 2rem;
+    border-radius: 0 0 0.5rem 0.5rem;
     cursor: pointer;
-    font-size: 2.2vw;
+    font-size: 3.2vw;
     font-family: Tahoma, Verdana, sans-serif;
+    padding: 0.4rem;
     border: 0px solid transparent;
     font-weight: bold;
   }
-
-  @media screen and (max-width: 500px) {
-    .border {
-      min-height: 25vh;
-    }
-  }
-  
