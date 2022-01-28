@@ -51,7 +51,7 @@ document.querySelector("#refresh").addEventListener("click", function() {
     	      window.location.reload(true);  
  });
 
-let x = Math.floor((Math.random() * 26) + 1);
+let x = Math.floor(Math.random() * 25);
     
 function generatorFunction(x) {
   if(x % 2 == 0){
@@ -64,3 +64,4 @@ function generatorFunction(x) {
 }
 
 generatorFunction(x);
+
