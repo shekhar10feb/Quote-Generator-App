@@ -38,7 +38,7 @@
   .border {
     position: relative;
     width: 99%;
-    min-height: 50vw;
+    min-height: 50vh;
     background: white;
     display: flex;
     justify-content: center;
